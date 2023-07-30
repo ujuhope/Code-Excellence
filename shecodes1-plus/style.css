@@ -1,0 +1,47 @@
+h1 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0;
+        
+      }
+      h2 {
+        color: #8064e9;
+        text-align: center;
+        font-weight: 900;
+        margin-top: 4px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .about-shecodes {
+        text-align: center;
+        font-size: 18px;
+        margin: 40px;
+        /* font-family: Georgia, "Times New Roman", Times, serif; */
+        font-family: 'PT Mono', monospace;
+      }
+      .join-now-button button {
+        display: block;
+        margin: 0 auto;
+        /* margin-top: 40px; */
+        padding: 20px 30px;
+        border: none;
+        border-radius: 30px;
+        background-color: #8064e9;
+        color: #f5f0f1;
+        font-size: large;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+      .join-now-button button:hover {
+        border: 2px solid #8064e9;
+        background-color: #f5f0f1;
+        border-radius: 1px;
+        color: #8064e9;
+        transition: all 200ms ease-in-out;
+      }
+      img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+        position: ;
+      }

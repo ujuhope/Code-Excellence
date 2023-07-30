@@ -1,0 +1,156 @@
+.container {
+  background-color: #11103a;
+  border: 1px solid #11103a;
+  max-width: 600px;
+  max-height: 80%;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+form {
+  padding: 50px 0 0 55px;
+  
+}
+
+/* .title {
+  text-align: center;
+  color: aliceblue;
+  padding: 15px 0 0 0;
+  
+} */
+.weather-details {
+  position: relative;
+  left: 40px;
+  border: 1px solid #11103a;
+  max-width: 80%;
+  padding: 40px 15px;
+  margin: 5px;
+  border-radius: 30px;
+  background-color: #1b1c48;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+.today-h1 {
+  margin-left: 15px;
+  margin-top: 5px;
+  /* line-height: 50px; */
+}
+
+.date {
+  /* margin-top: 10px; */
+  position: relative;
+  right: -80px;
+  line-height: 50px;
+}
+.temp-larg h1 {
+  margin-left: 15px;
+  font-size: 70px;
+}
+
+.unit-larg {
+  position: relative;
+  top: -20px;
+  left: -18px;
+  font-size: 25px;
+  font-weight: 500;
+  color: yellow;
+}
+.img-container {
+  position: relative;
+  right: -80px;
+}
+.city {
+  text-align: center;
+}
+.days li {
+  margin: 0;
+  color: aliceblue;
+  font-weight: 500;
+  font-size: large;
+}
+.days a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.days a:hover {
+  color: yellow;
+}
+.temp-col-container {
+  border: 1px solid #11103a;
+  background-color: #1b1c48;
+  color: aliceblue;
+  border-radius: 30px;
+  max-width: 80%;
+}
+.tempcol1-img {
+  position: relative;
+  left: 50px;
+}
+.temp-col-time {
+  margin-left: 15px;
+}
+.temp-col-temp {
+  margin-left: 15px;
+  font-size: 25px;
+}
+.temp-unit {
+  position: relative;
+  top: -7px;
+  left: 2px;
+  font-size: 12px;
+  color: yellow;
+}
+
+.col-container {
+  position: relative;
+  right: 45px;
+}
+.col-container1 {
+  position: relative;
+  left: 45px;
+}
+.days {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 85px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.prediction {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "PT Mono", monospace;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.weather-condition {
+  list-style: none;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: "PT Mono", monospace;
+}
+.weather-condition li {
+  color: gray;
+  margin: 5px;
+}
+
+var {
+  position: relative;
+  top: -50px;
+  left: 200px;
+
+  width: 30px;
+  border: 2px solid yellow;
+  height: 4000px;
+}
+.time {
+  color: aliceblue;
+  padding: 5px;
+}
