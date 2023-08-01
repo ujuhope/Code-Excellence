@@ -1,0 +1,62 @@
+body {
+  background-color: hsl(185, 75%, 30%);
+  /* font-family: "Kumbh Sans", sans-serif; */
+}
+.container {
+  background-image: linear-gradient(
+    to top,
+    hsl(0, 0%, 95%) 60%,
+    hsl(185, 75%, 56%) 40%
+  );
+  border: 1px solid hsl(185, 75%, 30%);
+  max-width: 300px;
+
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 100px 0 0 0;
+  margin-top: 140px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  border-radius: 50%;
+}
+.name-and-age {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.page-engagement-container {
+  display: flex;
+  justify-content: center;
+}
+.page-engagement {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin-right: 35px;
+  text-align: center;
+}
+li p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 13px;
+}
+li strong {
+  padding-bottom: 0;
+  font-weight: 600;
+  font-size: 19px;
+}
+.name-and-age p {
+  font-size: 14px;
+}
+hr {
+  color: aliceblue;
+}
+.age{
+padding-left: 5px;
+font-size: 15px;
+}

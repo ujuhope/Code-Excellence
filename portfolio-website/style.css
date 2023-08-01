@@ -1,0 +1,30 @@
+body{
+  background-color: aqua;
+  /* max-width: 80%; */
+}
+.container {
+    color: aliceblue;
+  border: 1px solid red;
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  background-color: #11103a;
+}
+.nav-bar {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid red;
+  
+  
+  /* justify-content: space-between; */
+
+  display: flex;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 50px;
+  /* margin: 0;
+  padding: 0; */
+}
